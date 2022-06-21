@@ -6,4 +6,4 @@ const patientSchema = mongoose.Schema({
     password: {type: String, required: true}
 })
 
-export const Patient = mongoose.model('patient', patientSchema);
+export default mongoose.model('Patient', patientSchema);
