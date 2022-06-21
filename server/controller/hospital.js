@@ -1,4 +1,4 @@
-import Hospital from "../models/hospital";
+import Hospital from "../models/hospital.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 

@@ -7,4 +7,4 @@ const hospitalSchema = mongoose.Schema({
     password: {type: String, required: true}
 })
 
-export const Hospital = mongoose.model('hospital', hospitalSchema);
+export default mongoose.model('Hospital', hospitalSchema);
