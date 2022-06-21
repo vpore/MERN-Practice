@@ -1,5 +1,4 @@
 import express from "express"
-
 import { signin, signup } from "../controller/hospital.js";
 
 const router = express.Router();
